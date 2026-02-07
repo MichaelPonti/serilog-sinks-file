@@ -46,4 +46,8 @@
     <None Include="..\..\README.md" Pack="true" Visible="false" PackagePath="/" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\serilog\src\Serilog\Serilog.csproj" />
+  </ItemGroup>
+
 </Project>
